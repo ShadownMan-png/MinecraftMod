@@ -1,1 +1,21 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="All rights reserved"
 
+[[mods]]
+modId="ratmod"
+version="${file.jarVersion}"
+displayName="Enhanced Utilities"
+displayURL="https://github.com/TU_USUARIO/EnhancedMinecraftUtilities"
+logoFile="logo.png" # Opcional: agrega una imagen para más legitimidad
+authors="TU_NOMBRE_FAKE"
+description='''
+A utility mod that enhances gameplay with additional features and tools for better performance.
+'''
+
+[[dependencies.ratmod]]
+modId="forge"
+mandatory=true
+versionRange="[47,)"
+ordering="NONE"
+side="BOTH"
